@@ -1,0 +1,16 @@
+Titlu: Titlu2
+Autor: Autor
+Continut:       Continut
+Data: Data
+Like-uri: 0
+Dislike-uri: 1
+Reactii de iubire: 2
+
+Titlu: Titlu
+Autor: Autor
+Continut:  Continut
+Data: Data
+Like-uri: 1
+Dislike-uri: 0
+Reactii de iubire: 0
+

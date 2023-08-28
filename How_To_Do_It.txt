@@ -1,0 +1,49 @@
+g++ -o app1 App1/app1.cpp Shared/Data/articol.cpp Shared/Data/comentariu.cpp
+
+g++ -o app2 App2/app2.cpp Shared/Data/articol.cpp Shared/Data/comentariu.cpp
+
+./app1
+
+./app2
+
+app1.exe
+
+app2.exe
+
+Comanda: adauga_comentariu
+Exemplu de utilizare: ./app2.exe adauga_comentariu "Titlu" "Text comm" "Autor" "Data"
+
+Comanda: afisare_comentarii_articol
+Exemplu de utilizare: ./app2.exe afisare_comentarii_articol "Titlu"
+
+Comanda: adauga_reactie_comentariu
+Exemplu de utilizare: ./app2.exe adauga_reactie_comentariu "Titlu" 1 "like" (index = [0, ..., n])
+
+Comanda: adauga_reactie_articol
+Exemplu de utilizare: ./app2.exe adauga_reactie_articol "Titlu" "love"
+
+Comanda: sterge_comentariu
+Exemplu de utilizare: ./app2.exe sterge_comentariu "Titlu" 1
+
+Comanda "iesire":
+Exemplu de utilizare: ./app2.exe iesire
+
+====
+
+Comanda "adauga_articol":
+Exemplu de utilizare: ./app1.exe adauga_articol "Titlu" "Autor" "Continut" "Data"
+
+Comanda "afiseaza_articol":
+Exemplu de utilizare: ./app1.exe afiseaza_articol "Titlu"
+
+Comanda "afiseaza_articole":
+Exemplu de utilizare: ./app1.exe afiseaza_articole
+
+Comanda "editeaza_articol":
+Exemplu de utilizare: ./app1.exe editeaza_articol "Titlu" "Noul continut"
+
+Comanda "sterge_articol":
+Exemplu de utilizare: ./app1.exe sterge_articol "Titlu"
+
+Comanda "iesire":
+Exemplu de utilizare: ./app1.exe iesire
